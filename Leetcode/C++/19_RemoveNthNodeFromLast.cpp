@@ -14,7 +14,7 @@ public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         if(head->next==NULL)
             return NULL;
-       ListNode* temp=new ListNode();
+       ListNode*temp=new ListNode();
         temp->next=head;
          ListNode*fast=temp;
          ListNode*slow=temp;
